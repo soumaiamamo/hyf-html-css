@@ -1,0 +1,99 @@
+body{
+
+    background-color:white;
+
+    }
+
+
+.who {
+
+background-color:#C0C0C0;
+color:whitesmoke;
+border:5px double pink;
+padding:15px;
+margin:10p;
+font-style:italic;
+font-family: fantasy;
+text-align: center;
+font-size:60px;
+}
+ .pic {
+float:right;
+width:250px;
+padding:30px;
+border-radius:50%; 
+padding-bottom:25px;
+
+ }
+  .summery {
+    background-color: pink;
+    border:10px double rgba(116, 105, 113, 0.527);
+    position: relative;
+    text-align: centre;
+    font-size: 30px;
+    font-family:italic;
+    line-height: 2em;
+    text-decoration-style: wavy;
+    list-style-type:none;
+}
+
+a {
+color:gray;
+
+}
+
+
+#about ,#hobbies{
+    color:black;
+    background-color:white;
+    border:10px dashed pink;
+    padding:20px;
+    font-size:30px;
+     margin:15px;
+     font-family:monospace; 
+     line-height: 2em;
+    }
+
+
+ #educations ,#work{
+    color:black;
+    background-color:pink;
+    border:10px dashed gray;
+    padding:20px;
+    font-size:30px;
+    margin:15px;    
+    font-family:monospace;
+    line-height: 2em;
+ }
+
+
+
+
+ .food {
+    margin: 10px;
+    border:8px sloid gray;
+    overflow: auto;
+
+}
+
+.photos {
+
+ position:auto;
+ border:10px double gray;
+ margin:10px;
+ padding:10px;
+
+}   
+
+
+
+.horse {
+    float:right;
+
+}
+
+ul{
+    height: 250px;
+}
+
+
