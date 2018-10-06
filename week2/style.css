@@ -1,0 +1,146 @@
+ 
+ 
+  body {
+     background-color:lightgray;
+       }
+
+  ul {
+     list-style-type: none;
+     }
+
+  h1 ,h2 {
+    text-align:center;
+    color:white;
+    background-color:black;
+    padding:20px;
+    font-size:33px;
+         }
+
+  h2:hover {
+    background-color:gray;
+    color:white;
+    font-size:40px;
+           }
+
+  h1:hover {
+    background-color:pink;
+    color:white;
+    font-size:40px;
+           }
+
+  h3 {
+     background-color:darkgray;
+     color:white;
+     padding:5px;
+           }
+ 
+ .grid-item { 
+    background-color:white;       
+            }
+
+ #grid-floats :hover , #grid-flex :hover{
+    box-shadow: 5px 5px 5px 5px pink; 
+            }
+
+ #grid-floats li:nth-child(1){
+     width:45%;
+     height:400px;
+            }
+
+ #grid-floats .grid-item {
+     float:left;
+     border:5px double black;
+     width:20%;
+     height:400px;
+     padding:10px;
+     margin:15px;
+     
+                       }
+    
+ #grid-floats::after{
+     content:"";
+     display:table;
+     clear: both;
+     height: 100%;
+            }
+    
+  img {
+     width:150px;
+     height:150px;
+     border:3px solid gray;
+    
+        }
+
+  #grid-flex {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;      
+     justify-content:flex-start;
+     align-items: flex-start;
+     align-content: flex-start;
+     align-self: auto;
+     
+             }
+
+  #grid-flex .grid-item {
+     border:5px double black;
+     width:20%;
+     padding:10px;
+     margin:15px;
+                        }
+       
+  #grid-flex li:nth-child(1){
+     width:45%;
+     height:400px;
+                             }                            
+  #grid-flex li:nth-child(n+2){    
+     width:20%;
+     height:400px;
+                              }
+
+
+                     /* for  mobile  */
+            @media screen and (max-width: 600px) {
+               
+                li:first-child {
+                    width:80%;
+                               }
+
+                .grid-item {
+                    width: calc(50%- 20px);
+                    height: 350px;
+                    overflow: auto;
+                           }
+
+                .grid-item img {
+                    width: 100%;
+                    float: none;
+                               }
+                                                   }
+            
+                       /* for tablet */
+            @media screen and (min-width:601px) and (max-width:1024px) {
+
+                li:nth-child(-n+2) {                
+                    width:35% !important; 
+                    height: 280px;  
+                                   }
+
+                .grid-item {
+                    width: calc(33.3% - 20px);
+                    overflow: auto;
+                           }
+
+                       /* for desktop */
+            @media screen and (min-width:1024px){
+
+                li:first-child {
+                    width: 60%;
+                }
+                .grid-item {
+                    width: 20%;
+                    height: 350px;
+                    overflow: auto;
+                           }
+              
+                               }
