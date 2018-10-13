@@ -1,0 +1,243 @@
+
+body{
+    background-color:#f3f3f3;
+    margin:1px;
+    }
+
+.head {
+    padding-left:600px;
+    width:200px;
+      }
+
+.table {
+     background-color:#01689b;
+     font-size:20px;
+     color:white;
+     width:100%;
+     padding:20px;
+     font-family:fantacy;
+        }
+
+th a {
+    color:white;
+    text-decoration: none;         
+        }
+
+.pic {
+    background: url("brandstofstickers-hero.jpg");
+    width:calc (100% - 30px);
+    height:320px;
+  padding-top:30px;
+  padding-left:30px;
+        }
+
+#icon{
+    color:white;
+    margin-top:65px;  
+
+        }
+
+.heading {
+    background-color:white;
+    font-size:20px;
+    list-style-type:none;
+    width:400px;
+    height:200px;
+    line-height: 40px;
+    padding:15px; 
+    margin:-10px;
+    font-family:serif;
+
+          }
+
+ul {
+    list-style-type:none;
+   }
+
+ul::after{
+    clear: both;
+    content:"";
+    display:table;   
+         }
+        
+li a {
+    color:gray ;
+    text-decoration: none;
+      }
+
+#first-li {
+    font-size:30px;
+    padding-left:5px;
+          }
+
+h5 {
+    color:white;
+    padding-left: 25px;
+   }
+
+h1  {
+    color:#a90061;
+    font-size:30px;
+    font-weight:bold;
+    font-size: 31px;
+    font-family:sans-serif;
+     }
+    
+.li {
+
+    width:calc(25% - 20px);
+    float:left;
+    margin:5px;
+    font-size:20px;
+    line-height:30px;
+    height:300px;
+    background-color:#f3f3f3;
+    }
+
+
+.li h4, h4, h2{
+     color:#01689b;
+     font-size:30px;
+     font-family:italic;
+     line-height:40px;
+     width:200px; 
+     text-align:center;
+     padding-right:20px;
+    }
+
+h5 {
+    color:black;
+    font-size:20px;
+   }
+
+.third {
+float:left;
+width:400px;
+margin:20px;  
+margin-top:100px;
+ margin-left:-20px;   
+ }  
+           
+          
+p {
+    font-size:20px;
+    line-height:40px;
+  }
+
+
+.third a {
+    color:#01689b;
+    font-size:35px;
+    padding-top:15px;
+
+           }
+
+a:hover {
+     text-decoration:underline;
+        }
+
+#news {
+    color:black;
+    font-size:30px;
+    text-align:left;
+    padding-left: 100px;  
+      }
+
+
+.meer{
+    color:#01689b;
+    font-size:40px;
+    float:left;
+    padding:20px;
+    margin:20px;
+    margin-top:50px;
+     }
+ 
+.box {
+border:4px solid lightslategray;
+padding:10px;
+float:left;
+margin:5px;
+height:250px;
+margin-left:30px;
+text-align: center;
+width:300px;
+background-color:white;
+       } 
+
+#box{
+    clear: both;
+    content:"";
+    display:table;     
+     }
+
+.searchBox{
+    width:300px;
+    height:40px;
+    float:right;
+    margin-top:30px;    
+            }
+
+.searchButton{
+    width:50px;
+    height:46px;
+    float:right;
+    margin-top:30px;
+    margin-right:30px;
+              }
+
+#end{
+    color:"white"
+    font-size:30px;
+    }
+
+.info {
+   color:white;
+   float:right;
+   font-size:20px;
+   margin-right:30px;
+   line-height:40px; 
+   width:600px;
+   font-family:italic;  
+       }
+
+.list {  
+        margin:70px;
+        margin-bottom:-50px;
+        width:200px; 
+        line-height:30px; 
+        float: left;
+        padding:20px;  
+        height:800px;
+
+       }
+ #end {   
+        font-size:30px;
+        color:white;
+        width:40%;
+        padding-left:50px;
+        padding-top:50px;
+        font-family: cursive;
+         }
+
+.blue {
+        background-color:#01689b;
+        width:100%;
+        height:500px;          
+      }
+
+  .taal {
+         font-size:22px;
+         border:3px solid lightblue;
+         padding:5px;
+         color:#01689b;
+         float:left;
+         margin:20px;
+         }
+
+
+   ul a {
+        color:#01689b;
+        margin:30px; 
+         }
+ 
